@@ -1,0 +1,13 @@
+{
+  "name": "GaanaDL",
+  "version": "1.1",
+  "manifest_version": 2,
+  "icons": { "16": "icon_16.png",
+             "48": "icon_48.png",
+             "128": "icon_128.png" },
+  "content_scripts": [{
+      "matches": ["http://gaana.com/*"],
+      "js": ["contentscript.js"]
+  }],
+  "web_accessible_resources": ["script.js"]
+}
